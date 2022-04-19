@@ -6,7 +6,7 @@ import { floor, random } from "./math";
  * @return random number between min and max
  */
 const getRandomArbitraryNumber = (min: number, max: number) =>
-    floor(random() * (max - min) + min);
+    floor(random() * (max - min + 1) + min);
 
 /**
  * @returns random rgb and rgba color
